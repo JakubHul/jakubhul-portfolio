@@ -1,0 +1,130 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to bottom, #1a0826, #0c001a);
+    color: #e0e0ff;
+    min-height: 100vh;
+}
+
+.navbar {
+    background-color: #1f0033;
+    border-bottom: 1px solid #bb86fc;
+}
+
+.navbar-brand {
+    font-size: 2rem;
+    color: #bb86fc !important;
+}
+
+.nav-link {
+    color: #e0e0ff !important;
+}
+
+.nav-link:hover {
+    color: #bb86fc !important;
+}
+
+h1, h2, h3, .lead {
+    color: #e0e0ff;
+}
+
+.card {
+    background: radial-gradient(circle at top left, #3a1c71, #2b0a3d);
+    color: white;
+    border: none;
+    box-shadow: 0 0 15px rgba(187, 134, 252, 0.3);
+    transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 25px rgba(187, 134, 252, 0.6);
+}
+
+hr {
+    border-color: #bb86fc;
+}
+
+.text-accent {
+    color: #bb86fc !important;
+    text-decoration: underline;
+}
+
+footer {
+    background: radial-gradient(circle at top left, #3a1c71, #2b0a3d);
+    color: #e0e0ff;
+    border-top: 1px solid #bb86fc;
+}
+
+footer a {
+    color: #bb86fc;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #ffffff;
+}
+
+footer img {
+    filter: brightness(0) invert(1);
+    transition: transform 0.2s ease;
+}
+
+footer img:hover {
+    transform: scale(1.2);
+}
+
+.font-jh {
+    font-family: 'Karla', sans-serif;
+    font-style: italic;
+    font-weight: 700;
+}
+
+.projects-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+
+.project-item {
+    background: radial-gradient(circle at top left, #3a1c71, #2b0a3d);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(187, 134, 252, 0.3);
+    color: #e0e0ff;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    transition: box-shadow 0.3s ease;
+}
+
+.project-item:hover {
+    box-shadow: 0 0 25px rgba(187, 134, 252, 0.6);
+}
+
+.project-text h5 {
+    margin-bottom: 10px;
+    color: #bb86fc;
+    font-weight: 700;
+}
+
+.project-text p {
+    font-size: 1rem;
+}
+
+.project-image img {
+    max-width: 200px;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.project-link img {
+    filter: brightness(0) invert(1);
+    transition: transform 0.2s ease;
+}
+
+.project-link img:hover {
+    transform: scale(1.1);
+}

@@ -1,0 +1,48 @@
+{% extends "layout.html" %}
+
+{% block title %}Photoshop Skills - My Portfolio{% endblock %}
+
+{% block content %}
+<h1 class="text-center">Photoshop Skills</h1>
+<p class="text-center mb-5">Here you’ll find a selection of my Photoshop graphics and visual works.</p>
+
+<div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4">
+
+  <div class="col">
+    <div class="card shadow-sm h-100">
+      <img src="{{ url_for('static', filename='photoshop/graphic1.png') }}" class="card-img-top" alt="Graphic 1">
+    </div>
+  </div>
+
+  <div class="col">
+    <div class="card shadow-sm h-100">
+      <img src="{{ url_for('static', filename='photoshop/graphic2.png') }}" class="card-img-top" alt="Graphic 2">
+    </div>
+  </div>
+
+  <div class="col">
+    <div class="card shadow-sm h-100">
+      <img src="{{ url_for('static', filename='photoshop/graphic3.png') }}" class="card-img-top" alt="Graphic 3">
+    </div>
+  </div>
+
+   <div class="col">
+    <div class="card shadow-sm h-100">
+      <img src="{{ url_for('static', filename='photoshop/graphic4.png') }}" class="card-img-top" alt="Graphic 4">
+    </div>
+  </div>
+
+   <div class="col">
+    <div class="card shadow-sm h-100">
+      <img src="{{ url_for('static', filename='photoshop/graphic5.png') }}" class="card-img-top" alt="Graphic 5">
+    </div>
+  </div>
+
+  <div class="col">
+    <div class="card shadow-sm h-100">
+      <img src="{{ url_for('static', filename='photoshop/graphic6.png') }}" class="card-img-top" alt="Graphic 6">
+    </div>
+  </div>
+
+</div>
+{% endblock %}
