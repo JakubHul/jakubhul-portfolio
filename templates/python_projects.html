@@ -7,4 +7,20 @@
 <h1 class="text-center">Python Projects</h1>
 <p class="text-center">Here you’ll find a selection of my Python scripts and projects.</p>
 <!-- You can list projects here -->
+<div class="container">
+  <div class="row g-4">
+
+    <!-- Watermarked -->
+    <div class="col-md-6 col-lg-4">
+      <div class="card h-100 bg-dark text-white border-0 shadow project-card">
+        <img src="{{ url_for('static', filename='python/watermarked_logo.png') }}" class="card-img-top" alt="Watermarked Logo">
+        <div class="card-body d-flex flex-column">
+          <h5 class="card-title text-accent">Watermarked</h5>
+          <p class="card-text">A simple watermarking tool built with Python and Tkinter. Select an image, add custom text, and save your watermarked photo in seconds!</p>
+          <a href="https://github.com/JakubHul/WatermarkGuiApp" target="_blank" class="mt-auto btn btn-outline-light">See on Github</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 {% endblock %}
